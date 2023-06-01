@@ -35,7 +35,7 @@ if (program.clear) {
     process.exit(0);
   });
 } else {
-  co(function *() {
+  co(function* () {
     if (program.silent) {
       logUtil.setPrintStatus(false);
     }
